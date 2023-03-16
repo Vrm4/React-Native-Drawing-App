@@ -6,6 +6,7 @@ const { width, height } = Dimensions.get('window');
 
 const DrawingApp = () => {
   const panResponder = useRef(
+    
     PanResponder.create({
       onStartShouldSetPanResponder: () => true,
       onPanResponderStart : (evt) =>{
